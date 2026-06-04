@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-primary: #9B111E;   /* Royal deep ruby red */
+  --color-gold: #D4AF37;      /* Premium gold accent */
+  --color-rose: #F6E9E4;      /* Soft luxury rose background */
+  --color-ivory: #FFFDF9;     /* Elegant main background */
+  --color-text: #241616;      /* Rich dark text */
+  --color-dark: #14090B;      /* Deep premium footer/navbar */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FFFDF9;
+    color: #241616;
+  }
+  body {
+    @apply antialiased overflow-x-hidden;
+  }
+}
+
+/* Custom transitions and styles */
+.cat-link.active-click {
+  color: #9B111E !important;
+  border-bottom-color: #9B111E !important;
+  opacity: 1 !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Swiper custom pagination for Theme 3 */
+.swiper-pagination-testimonial .swiper-pagination-bullet-active { 
+  background: #D4AF37 !important; 
+  width: 45px !important; 
+  border-radius: 12px !important; 
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet {
+  background: #241616 !important;
+  opacity: 0.2 !important;
+  width: 10px !important;
+  height: 10px !important;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background: #D4AF37 !important;
+  opacity: 1 !important;
+  width: 24px !important;
+  border-radius: 6px !important;
+}
