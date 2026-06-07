@@ -85,7 +85,7 @@ export default function About() {
                   <span className="text-gold font-bold tracking-[0.4em] uppercase text-[10px] md:text-xs block">Our Story</span>
                   <h2 className="font-serif text-5xl md:text-7xl text-text leading-none tracking-tighter">Beyond Brilliance.</h2>
                   <p className="text-text/70 text-md md:text-lg leading-relaxed font-medium">
-                    At Nova, we believe jewelry is a silent language of love and legacy. Our artisans breathe life into precious metals and stones.
+                    At Dhrish, we believe jewelry is a silent language of love and legacy. Our artisans breathe life into precious metals and stones.
                   </p>
                 </div>
 
@@ -197,7 +197,7 @@ export default function About() {
                 </div>
                 <h2 className="font-serif text-5xl md:text-7xl text-text leading-[0.95] tracking-tighter">Our Approach</h2>
                 <p className="text-text/70 text-lg md:text-xl leading-relaxed font-medium max-w-xl">
-                  Merging tradition with technological precision, our workflow is designed to ensure that every gem and metal meets the Nova standard of excellence.
+                  Merging tradition with technological precision, our workflow is designed to ensure that every gem and metal meets the Dhrish standard of excellence.
                 </p>
               </div>
 

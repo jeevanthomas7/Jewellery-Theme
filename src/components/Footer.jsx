@@ -161,14 +161,14 @@ export default function Footer() {
 
           <div className="lg:col-span-4 space-y-8 flex flex-col items-center text-center lg:items-end lg:text-right">
             <div className="flex flex-col lg:flex-row items-center gap-5">
-              <img src="/images/logo.png" className="h-15 w-auto rounded-2xl" alt="Logo" />
+        
               <h3 className="font-serif text-3xl md:text-4xl tracking-tighter uppercase text-ivory leading-tight">
-                NOVA GOLD & <br /> 
+                DHRISH GOLD & <br /> 
                 <span className="text-gold text-xl tracking-[0.4em] block">DIAMONDS</span>
               </h3>
             </div>
             <p className="text-[15px] text-ivory leading-relaxed max-w-sm font-bold opacity-100">
-              The perfect crafted BIS hallmarked 916 asset from the house of NOVA.
+              The perfect crafted BIS hallmarked 916 asset from the house of DHRISH.
             </p>
             <div className="flex gap-8 pt-4">
               <a href="#" className="text-ivory opacity-80 hover:text-gold hover:-translate-y-1 transition-all duration-300"><i className="fa-brands fa-instagram text-2xl"></i></a>
@@ -190,7 +190,7 @@ export default function Footer() {
 
           <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
             <p className="text-[13px] text-ivory font-bold opacity-80 text-center">
-              © {new Date().getFullYear()} Nova Gold & Diamonds All Rights Reserved
+              © {new Date().getFullYear()} Dhrish Gold & Diamonds All Rights Reserved
             </p>
             
             <div className="flex items-center gap-6 opacity-100 grayscale hover:grayscale-0 transition-all duration-500">

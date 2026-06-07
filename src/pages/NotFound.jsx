@@ -13,7 +13,7 @@ export default function NotFound() {
       <div className="relative z-10 flex flex-col items-center text-center max-w-2xl">
         <div className="mb-12">
           <Link to="/">
-            <img src="/images/logo.png" alt="Nova Gold" className="h-16 w-auto mx-auto" />
+            <img src="/images/logo.png" alt="Dhrish Gold" className="h-16 w-auto mx-auto" />
           </Link>
         </div>
 

@@ -27,7 +27,7 @@ export default function Header() {
         
         <div className="flex items-center">
           <Link to="/" className="group flex flex-col items-start">
-            <h1 className="text-primary text-3xl sm:text-4xl leading-none font-serif tracking-widest uppercase transition-all duration-500 group-hover:text-gold">NOVA</h1>
+            <h1 className="text-primary text-3xl sm:text-4xl leading-none font-serif tracking-widest uppercase transition-all duration-500 group-hover:text-gold">DHRISH</h1>
             <div className="flex items-center gap-1 mt-1 ml-0 lg:ml-0">
               <span className="h-[1px] w-2 bg-gold/50"></span>
               <span className="text-gold text-[5px] sm:text-[7px] tracking-[0.2em] uppercase font-bold whitespace-nowrap">GOLD & DIAMONDS</span>
@@ -118,7 +118,7 @@ export default function Header() {
       }`}>
         <div className="flex justify-between items-center mb-12 border-b border-black/10 p-2">
           <div className="flex flex-col">
-            <h2 className="font-serif text-3xl tracking-widest uppercase text-primary leading-none">NOVA</h2>
+            <h2 className="font-serif text-3xl tracking-widest uppercase text-primary leading-none">DHRISH</h2>
             <div className="flex items-center gap-1 mt-1">
               <span className="h-[1px] w-2 bg-gold/50"></span>
               <span className="text-gold text-[6px] tracking-[0.2em] uppercase font-bold">Gold & Diamonds</span>

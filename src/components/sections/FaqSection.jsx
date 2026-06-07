@@ -12,15 +12,15 @@ export default function FaqSection() {
     },
     {
       q: "Do your diamonds come with international certification?",
-      a: "Yes, every diamond from Nova is accompanied by a laboratory certificate from GIA or IGI, verifying its cut, clarity, color, and carat weight for your absolute peace of mind."
+      a: "Yes, every diamond from Dhrish is accompanied by a laboratory certificate from GIA or IGI, verifying its cut, clarity, color, and carat weight for your absolute peace of mind."
     },
     {
       q: "Can I customize a design or create something bespoke?",
       a: "Our master artisans specialize in bespoke creations. You can work directly with our design team to forge a unique masterpiece that reflects your personal journey."
     },
     {
-      q: "What is the Nova buy-back and exchange policy?",
-      a: "We offer a transparent lifetime buy-back and exchange policy. You can upgrade your Nova jewelry at current market rates, ensuring your purchase remains a lasting asset."
+      q: "What is the Dhrish buy-back and exchange policy?",
+      a: "We offer a transparent lifetime buy-back and exchange policy. You can upgrade your Dhrish jewelry at current market rates, ensuring your purchase remains a lasting asset."
     }
   ];
 
@@ -51,7 +51,7 @@ export default function FaqSection() {
                 Frequently Asked Questions
               </h2>
               <p class="text-text/70 text-sm sm:text-base leading-relaxed max-w-2xl font-medium">
-                Discover the details behind our craftsmanship, gold purity standards, and the bespoke experience at Nova Gold & Diamonds.
+                Discover the details behind our craftsmanship, gold purity standards, and the bespoke experience at Dhrish Gold & Diamonds.
               </p>
             </div>
 

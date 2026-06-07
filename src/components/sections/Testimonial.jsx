@@ -8,7 +8,7 @@ export default function Testimonial() {
       img: '/images/charaters/men.jpg',
       name: 'Rahul Sharma',
       role: 'Premium Client',
-      text: 'The purity of gold and the brilliance of the diamonds at Nova is unmatched. I found my dream wedding set here with exceptional service.'
+      text: 'The purity of gold and the brilliance of the diamonds at Dhrish is unmatched. I found my dream wedding set here with exceptional service.'
     },
     {
       img: '/images/charaters/t2.jpg',
@@ -20,7 +20,7 @@ export default function Testimonial() {
       img: '/images/charaters/t3.jpg',
       name: 'Vikram Nair',
       role: 'Investor',
-      text: 'Best buy-back policies in the industry. Nova Gold and Diamonds is a brand I can trust for my future investments and family heritage.'
+      text: 'Best buy-back policies in the industry. Dhrish Gold and Diamonds is a brand I can trust for my future investments and family heritage.'
     },
     {
       img: '/images/charaters/t4.jpg',
@@ -53,7 +53,7 @@ export default function Testimonial() {
             <h2 className="font-serif text-3xl md:text-5xl lg:text-5xl text-text tracking-tight leading-tight">What our clients say</h2>
           </div>
           <div className="hidden md:block max-w-[300px] text-right">
-            <p className="text-text/50 text-sm leading-relaxed font-medium">Discover why thousands of families trust Nova Gold & Diamonds for their most precious moments since 1998.</p>
+            <p className="text-text/50 text-sm leading-relaxed font-medium">Discover why thousands of families trust Dhrish Gold & Diamonds for their most precious moments since 1998.</p>
           </div>
         </div>
 

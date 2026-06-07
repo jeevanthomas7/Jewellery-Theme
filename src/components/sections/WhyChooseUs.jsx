@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-6 lg:mb-12" data-aos="fade-right" data-aos-duration="800">
           <div className="max-w-2xl text-left">
-            <span className="text-gold font-bold tracking-[0.4em] text-[10px] md:text-xs mb-3 block uppercase">The Nova Advantage</span>
+            <span className="text-gold font-bold tracking-[0.4em] text-[10px] md:text-xs mb-3 block uppercase">The Dhrish Advantage</span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-text tracking-tight leading-tight">Why choose Us</h2>
           </div>
           <div className="hidden md:flex">
@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
           <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 blur-[100px] rounded-full"></div>
           <div className="max-w-2xl relative z-10 text-center md:text-left">
             <h3 className="font-serif text-2xl md:text-3xl text-ivory mb-4 leading-tight">Visit our showroom to see the brilliance in person</h3>
-            <p className="text-ivory/50 text-xs md:text-md uppercase tracking-[0.2em] font-bold">Experience luxury at Nova Gold & Diamonds.</p>
+            <p className="text-ivory/50 text-xs md:text-md uppercase tracking-[0.2em] font-bold">Experience luxury at Dhrish Gold & Diamonds.</p>
           </div>
           <Link to="/contact" className="group relative inline-flex items-center gap-4 bg-primary text-white px-6 py-4 lg:px-10 lg:py-5 rounded-2xl overflow-hidden transition-all duration-500 hover:scale-105 shrink-0 z-10 shadow-2xl shadow-primary/20 font-bold uppercase tracking-widest text-[11px]">
             <span>Locate Showroom</span>

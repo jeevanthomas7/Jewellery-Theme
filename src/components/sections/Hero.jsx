@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="absolute inset-0">
           <img 
             src="/images/new.png" 
-            alt="Nova Gold"
+            alt="Dhrish Gold"
             className="absolute inset-0 w-full h-full object-cover object-center scale-100 opacity-100"
             style={{
               animation: 'hero-zoom 30s linear infinite alternate'

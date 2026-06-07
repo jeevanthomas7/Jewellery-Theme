@@ -55,19 +55,19 @@ export default function Instagram() {
               Real Brides. Real Elegance.
             </h2>
             <p className="mt-6 text-text/60 text-sm md:text-base leading-relaxed max-w-xl mx-auto lg:mx-0 font-medium">
-              Explore cherished moments shared by our clients wearing Nova Gold & Diamonds collections for weddings and timeless celebrations.
+              Explore cherished moments shared by our clients wearing Dhrish Gold & Diamonds collections for weddings and timeless celebrations.
             </p>
           </div>
 
           <div className="flex justify-center lg:justify-end" data-aos="fade-left">
             <a 
-              href="https://www.instagram.com/novagoldanddiamonds/" 
+              href="https://www.instagram.com/dhrishgoldanddiamonds/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group relative inline-flex items-center gap-4 bg-primary border border-gold/30 text-white px-8 py-4 rounded-2xl transition-all duration-500 hover:scale-105 shadow-sm hover:shadow-xl hover:border-gold"
             >
               <i className="fa-brands fa-instagram text-xl text-white"></i>
-              <span className="text-[13px] sm:text-[13px] font-bold tracking-[0.2em]">@novagoldanddiamonds</span>
+              <span className="text-[13px] sm:text-[13px] font-bold tracking-[0.2em]">@dhrishgoldanddiamonds</span>
             </a>
           </div>
         </div>

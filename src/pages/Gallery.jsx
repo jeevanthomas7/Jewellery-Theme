@@ -42,7 +42,7 @@ export default function Gallery() {
                     key={index}
                     href={item.src} 
                     className="glightbox group relative aspect-square overflow-hidden rounded-2xl shadow-lg border border-gold/10 bg-black" 
-                    data-gallery="nova-gallery"
+                    data-gallery="dhrish-gallery"
                   >
                     <video muted loop playsInline className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110">
                       <source src={item.src} type="video/mp4" />
@@ -62,7 +62,7 @@ export default function Gallery() {
                   key={index}
                   href={item.src} 
                   className={`glightbox group relative aspect-square overflow-hidden rounded-2xl shadow-lg border border-gold/10 ${item.isLgOnly ? 'hidden lg:block' : ''}`} 
-                  data-gallery="nova-gallery"
+                  data-gallery="dhrish-gallery"
                 >
                   <img 
                     src={item.src} 

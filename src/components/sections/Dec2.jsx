@@ -34,7 +34,7 @@ export default function Dec2() {
       setCurrent((prev) => (prev + 1) % slides.length);
     }, 7000);
     return () => clearInterval(timer);
-  }, [slides.length]);
+  }, [current, slides.length]); // Added current to properly reset timer on interaction
 
   const handlePrev = () => {
     setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
@@ -73,26 +73,24 @@ export default function Dec2() {
             return (
               <div 
                 key={index} 
-                className={`slide absolute inset-0 flex transition-opacity duration-700 ${isActive ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'}`}
-                data-aos={isActive ? "fade-left" : ""} 
-                data-aos-duration="800"
+                className={`slide absolute inset-0 flex transition-all duration-1000 ease-in-out ${isActive ? 'opacity-100 translate-x-0 z-10' : 'opacity-0 translate-x-8 z-0 pointer-events-none'}`}
               >
                 <div className="relative w-[45%] sm:w-[35%] flex-shrink-0 overflow-hidden">
                   <img 
                     src={slide.img} 
                     alt={slide.title}
-                    className="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-700 scale-100 hover:scale-105"
+                    className={`absolute inset-0 w-full h-full object-cover object-top transition-transform duration-[2000ms] ease-out ${isActive ? 'scale-105' : 'scale-100 hover:scale-105'}`}
                   />
                 </div>
                 <div className="flex-1 bg-rose flex flex-col justify-center px-6 sm:px-10 md:px-16 lg:px-20 relative">
-                  <div className="absolute top-0 right-10 sm:top-0 sm:right-16 w-28 sm:w-36 md:w-44 lg:w-58 pointer-events-none z-10">
+                  <div className={`absolute top-0 right-10 sm:top-0 sm:right-16 w-28 sm:w-36 md:w-44 lg:w-56 pointer-events-none z-10 transition-all duration-1000 delay-300 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
                     <img 
                       src={slide.prodImg} 
                       alt="Product"
                       className="w-full h-auto object-contain drop-shadow-2xl"
                     />
                   </div>
-                  <div className="mt-20 sm:mt-24 md:mt-16 relative z-20 text-left">
+                  <div className={`mt-20 sm:mt-24 md:mt-16 relative z-20 text-left transition-all duration-1000 delay-100 ${isActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
                     <h2 className="font-serif text-text text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light leading-tight mb-3 sm:mb-4">
                       {slide.title}
                     </h2>
@@ -122,7 +120,7 @@ export default function Dec2() {
           <div className="absolute right-1 sm:right-5 top-1/2 -translate-y-1/2 flex flex-col items-center gap-2 z-20">
             <button 
               onClick={handlePrev}
-              className="w-6 h-6 flex items-center justify-center text-text/30 hover:text-gold transition-colors duration-300"
+              className="w-6 h-6 flex items-center justify-center text-text/30 hover:text-gold transition-colors duration-300 cursor-pointer"
             >
               <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor">
                 <polygon points="5,0 10,10 0,10" />
@@ -135,14 +133,14 @@ export default function Dec2() {
                   <button 
                     key={index}
                     onClick={() => setCurrent(index)}
-                    className={`rounded-full transition-all duration-300 ${isActive ? 'w-2 h-2 bg-gold' : 'w-1.5 h-1.5 bg-text/20 hover:bg-gold/40'}`}
+                    className={`rounded-full transition-all duration-300 cursor-pointer ${isActive ? 'w-2 h-2 bg-gold' : 'w-1.5 h-1.5 bg-text/20 hover:bg-gold/40'}`}
                   ></button>
                 );
               })}
             </div>
             <button 
               onClick={handleNext}
-              className="w-6 h-6 flex items-center justify-center text-text/30 hover:text-gold transition-colors duration-300"
+              className="w-6 h-6 flex items-center justify-center text-text/30 hover:text-gold transition-colors duration-300 cursor-pointer"
             >
               <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor">
                 <polygon points="5,10 10,0 0,0" />

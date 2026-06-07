@@ -32,16 +32,16 @@ export default function Collections() {
     { name: 'Men\'s Gold Chain', price: 155000, img: 'collections/8.jpg', type: 'women', catId: 'necklaces' },
 
     // Rings
-    { name: 'Nova Signature Rings 1', price: 35000, img: 'works/1.webp', type: 'rings', catId: 'rings' },
-    { name: 'Nova Signature Rings 2', price: 40000, img: 'works/2.webp', type: 'women', catId: 'rings' },
-    { name: 'Nova Signature Rings 3', price: 45000, img: 'works/3.webp', type: 'bridal', catId: 'rings' },
-    { name: 'Nova Signature Rings 4', price: 50000, img: 'works/4.webp', type: 'rings', catId: 'rings' },
+    { name: 'Dhrish Signature Rings 1', price: 35000, img: 'works/1.webp', type: 'rings', catId: 'rings' },
+    { name: 'Dhrish Signature Rings 2', price: 40000, img: 'works/2.webp', type: 'women', catId: 'rings' },
+    { name: 'Dhrish Signature Rings 3', price: 45000, img: 'works/3.webp', type: 'bridal', catId: 'rings' },
+    { name: 'Dhrish Signature Rings 4', price: 50000, img: 'works/4.webp', type: 'rings', catId: 'rings' },
 
     // Bracelets
-    { name: 'Nova Signature Bracelets 1', price: 35000, img: 'works/1.webp', type: 'women', catId: 'bracelets' },
-    { name: 'Nova Signature Bracelets 2', price: 40000, img: 'works/2.webp', type: 'rings', catId: 'bracelets' },
-    { name: 'Nova Signature Bracelets 3', price: 45000, img: 'works/3.webp', type: 'bridal', catId: 'bracelets' },
-    { name: 'Nova Signature Bracelets 4', price: 50000, img: 'works/4.webp', type: 'women', catId: 'bracelets' }
+    { name: 'Dhrish Signature Bracelets 1', price: 35000, img: 'works/1.webp', type: 'women', catId: 'bracelets' },
+    { name: 'Dhrish Signature Bracelets 2', price: 40000, img: 'works/2.webp', type: 'rings', catId: 'bracelets' },
+    { name: 'Dhrish Signature Bracelets 3', price: 45000, img: 'works/3.webp', type: 'bridal', catId: 'bracelets' },
+    { name: 'Dhrish Signature Bracelets 4', price: 50000, img: 'works/4.webp', type: 'women', catId: 'bracelets' }
   ];
 
   const [typeFilter, setTypeFilter] = useState('all');

@@ -23,7 +23,7 @@ export default function Layout() {
   const isHome = pathname === '/' || pathname === '/home2';
 
   // Determine banner title and image
-  let bannerTitle = 'Nova Jewellery';
+  let bannerTitle = 'Dhrish Jewellery';
   let bannerImage = '/images/chatt.png';
 
   if (pathname === '/about') {

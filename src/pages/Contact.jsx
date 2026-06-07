@@ -68,8 +68,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-serif text-2xl text-text mb-2">Email Correspondence</h4>
-                      <p className="text-text/60 leading-relaxed font-bold">care@novajewellery.com</p>
-                      <p className="text-text/60 leading-relaxed font-bold">sales@novajewellery.com</p>
+                      <p className="text-text/60 leading-relaxed font-bold">care@dhrishjewellery.com</p>
+                      <p className="text-text/60 leading-relaxed font-bold">sales@dhrishjewellery.com</p>
                     </div>
                   </div>
                 </div>

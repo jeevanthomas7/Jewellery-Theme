@@ -18,7 +18,7 @@ export default function Faq() {
       items: [
         {
           q: 'How is the purity of gold guaranteed?',
-          a: 'Every single piece at Nova is 100% BIS Hallmarked. This standard ensures that your gold meets the highest 916 purity levels recognized globally.'
+          a: 'Every single piece at Dhrish is 100% BIS Hallmarked. This standard ensures that your gold meets the highest 916 purity levels recognized globally.'
         },
         {
           q: 'Can I check the gold weight in-store?',
@@ -57,7 +57,7 @@ export default function Faq() {
       items: [
         {
           q: 'Is shipping insured for expensive items?',
-          a: 'Every shipment from Nova is fully insured and handled by premium couriers to guarantee the safe transit of your jewelry to your doorstep.'
+          a: 'Every shipment from Dhrish is fully insured and handled by premium couriers to guarantee the safe transit of your jewelry to your doorstep.'
         },
         {
           q: 'Can I track my order in real-time?',
